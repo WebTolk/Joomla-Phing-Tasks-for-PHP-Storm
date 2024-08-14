@@ -1,7 +1,8 @@
 [![PhingVersion](https://img.shields.io/badge/Phing-2.x-orange.svg?label=Phing%20Verison)]()
 # Joomla Phing Tasks for PHP Storm
 Massive change of Joomla project information in all files: in XML manifestos and PHP Doc blocks.
-
+# Demo video
+[![](https://img.youtube.com/vi/z64SPHc6TCA/0.jpg)](https://www.youtube.com/watch?v=z64SPHc6TCA)
 # Task list
 ## Info
 Show Phing and project info in console
@@ -18,8 +19,7 @@ Change version variables to developer version `__DEPLOY_VERSION__`
 ## Package dev
 Package developer version.
 
-# Demo video
-[![](https://img.youtube.com/vi/z64SPHc6TCA/0.jpg)](https://www.youtube.com/watch?v=z64SPHc6TCA)
+
 
 # How to use
 Copy this files to your PHP Storm project. Right-click on the `.phing/project.xml` and select `Add as a Phing Build file`. Select task you need in Phing Build window. 
