@@ -1,0 +1,1 @@
+Zipped Joomla extensions will be placed here.
