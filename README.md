@@ -26,4 +26,4 @@ Copy this files to your PHP Storm project. Right-click on the `.phing/project.xm
 
 # Links
 - [PHP Storm PHing docs](https://www.jetbrains.com/help/phpstorm/using-phing.html)
-- [Igor Berdichevskiy](https://github.com/Septdir) - first author
+- [Igor Berdichevskiy](https://github.com/Septdir) - first author and his [verison for Phing 3](https://github.com/SeptdirWorkshop/JetBrains-PhpStorm) 
