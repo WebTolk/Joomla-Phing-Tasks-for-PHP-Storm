@@ -440,7 +440,7 @@ class ProjectTask extends Task
 			$original = file_get_contents($filename);
 			$replace  = preg_replace('/@authorEmail (\s*)(.?)*/', '@authorEmail       '.$email, $original);
 			$replace  = preg_replace('/@email (\s*)(.?)*/', '@email       '.$email, $replace);
-			$replace  = preg_replace('/\<authorEmail\>(.?)*<\/authorEmail\>/', '<authorUrl>' . $email . '</authorUrl>', $replace);
+			$replace  = preg_replace('/\<authorEmail\>(.?)*<\/authorEmail\>/', '<authorEmail>' . $email . '</authorUrl>', $replace);
 			if ($original != $replace)
 			{
 				file_put_contents($filename, $replace);
